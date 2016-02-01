@@ -20,7 +20,7 @@ public class GIF extends JFrame {
         }
     }*/
 
-    public GIF(String path) throws MalformedURLException {
+    public GIF(String path) {
         Icon icon = new ImageIcon(path);
         JLabel label = new JLabel(icon);
 
