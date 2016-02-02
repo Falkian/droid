@@ -12,7 +12,7 @@ public class GIF extends JFrame {
             System.out.print("Introduce un entero: ");
             int i = scanner.nextInt();
         } catch (InputMismatchException e) {
-            new GIF();
+            GIF gif = new GIF();
         }
     }
 
